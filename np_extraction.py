@@ -3,7 +3,7 @@ import nltk
 from nltk.corpus import brown
 #nltk.download('punkt')
 
-# Modify from:
+# Modify from Shlomi Babluki code:
 
 # This is a fast and simple noun phrase extractor (based on NLTK)
 # Feel free to use it, just keep a link back to this post
