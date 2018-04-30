@@ -110,7 +110,6 @@ from gensim.models import Word2Vec
 model1 = gensim.models.Word2Vec.load("/Users/sabrinalulu/Documents/Python/text8.model")
 #所有單字(only)，build_vocab = gensim.models.Word2Vec.load("/Users/sabrinalulu/Documents/Python/text8.model").wv.vocab
 print(model1)
-#print(build_vocab)
 
 # Main method, just run "python np_extractor.py"
 def main():
@@ -136,6 +135,8 @@ def main():
     values=""
     for i in range(len(result)):
       page = model1.wv.most_similar(result[i])
+    #用item[0]抓取sublist的第一位
+      lst = ",".join(item[0] for item in page)
       values += "".join(str(v) for v in page)+"\n\n"
     f=open('/Users/sabrinalulu/Documents/Python/test.txt','w')
     f.write(values)
