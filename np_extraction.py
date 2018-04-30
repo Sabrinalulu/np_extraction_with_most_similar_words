@@ -113,17 +113,7 @@ print(model1)
 
 # Main method, just run "python np_extractor.py"
 def main():
-
-    #sentence = "Swayy is a beautiful new dashboard for discovering and curating online content."
-    #sentence = "My head pains very much and makes me sleep unwell. How can I alleivate the pain?"
-    #head pains, sleep unwell, alleivate, pain
-    #sentence = "I have a fever and sleep unwell."
-    #fever, sleep unwell
-    #sentence = "How to relieve my whole body muscles sore after working?"
-    #whole body muscles sore
-    #sentence = "I keep a builder free now to book the heroes."
-    #builder, 'book',heroes
-    #I took pills twice. repeat third time. get "pills twice.I, pills twice.I"
+    
     sentence = "My kid has a fever."
     #kid, fever
     #sentence1 = "My son is at high degrees. He slept unwell last night. What pills can he take to feel comfortable?"
